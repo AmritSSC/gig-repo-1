@@ -7,6 +7,7 @@
 display: inline-block;
 }
 
+<<<<<<< HEAD
 .form-actions {
 margin: 0;
 background-color: transparent;
@@ -18,6 +19,8 @@ text-align: center;
 margin-left: 180px;
 }
 
+=======
+>>>>>>> 0361cd559f00f046fdcd99604fa493c66a5a9a31
 .navbar-brand {
 padding: 5px 15px 0 10px;
 }
@@ -37,6 +40,7 @@ width: 100%;
 padding: 0 1em;
 }
 
+<<<<<<< HEAD
 /* Acordeon styles */
 .tab {
 position: relative;
@@ -110,3 +114,33 @@ transform: rotate(315deg);
 input[type=radio]:checked + label::after {
 transform: rotateX(180deg);
 }
+=======
+  /* Accordian styles */
+  .tab {
+	position: relative;
+	margin-bottom: 1px;
+	width: 100%;
+	color: #fff;
+	overflow: hidden;
+  }
+
+  .blue label {
+	background: #2980b9;
+  }
+  .tab-content {
+	max-height: 0;
+	overflow: hidden;
+	background: #1abc9c;
+	-webkit-transition: max-height .35s;
+	-o-transition: max-height .35s;
+	transition: max-height .35s;
+  }
+  .blue .tab-content {
+	background: #3498db;
+  }
+  .tab-content p {
+	margin: 1em;
+	  height: auto;
+  }
+
+>>>>>>> 0361cd559f00f046fdcd99604fa493c66a5a9a31
